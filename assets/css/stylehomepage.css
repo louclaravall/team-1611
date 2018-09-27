@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+	/*font-family: 'Permanent Marker', cursive;*/
+}
+
+.rowhome {
+	background: #FFDF00;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+.homelogo {
+	height: 50px;
+	border-radius: 100%;
+}
+
+.homepage {
+	background: transparent;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation-delay: 1s;
+}
+
+.homepagelogo {
+	height: 200px;
+	border-radius: 100%;
+}
+
+.rowcarousel {
+	background: #191919;
+
+}
+
+.carousel {
+	margin-top: 50px;
+	border: 5px solid white;
+
+}
+
+.slider {
+	height: 600px;
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.slider {
+		height: 400px;
+	}
+
+}
+
+/*phone*/
+@media only screen and (max-width: 400px) {
+	.slider {
+		height: 300px;
+	}	
+	
+}

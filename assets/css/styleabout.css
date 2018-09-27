@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+	/*font-family: 'Permanent Marker', cursive;*/
+}
+
+body {
+	background: #191919;
+}
+
+.aboutlogo {
+	height: 50px;
+	border-radius: 100%;
+}
+
+.rowabout {
+	background: #FFDF00;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+.missionpage {
+	background: transparent;
+
+}
+
+.card {
+	background-color: #696969;
+}
+
+
+
+/*.img-3 {
+	height: 269.5px;
+}
+*/

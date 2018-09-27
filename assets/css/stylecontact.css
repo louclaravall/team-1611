@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+	/*font-family: 'Permanent Marker', cursive;*/
+}
+
+.contactlogo {
+	height: 50px;
+	border-radius: 100%
+}
+
+.contactpage {
+	background: transparent;
+}
+
+.rowcontact {
+	background: #FFDF00;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+.img-founder {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+
+}
+
+.img-cofounder {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;	
+}
+
+.contact-row {
+	background: #191919;
+	color: white;
+}
+
+.map {
+	width: 100%;
+	
+}
