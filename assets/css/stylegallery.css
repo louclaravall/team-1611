@@ -21,3 +21,45 @@
 	background: transparent;
 }
 
+.row-product {
+	background: #191919;
+}
+
+.card-bg {
+	background: #696969;
+}
+
+.anouncment {
+	background: #FFDF00;
+}
+
+.rowcarousel {
+	background: #191919;
+
+}
+
+.carousel {
+	margin-top: 50px;
+	border: 5px solid white;
+
+}
+
+.slider {
+	height: 600px;
+}
+
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.slider {
+		height: 400px;
+	}
+
+}
+
+/*phone*/
+@media only screen and (max-width: 400px) {
+	.slider {
+		height: 300px;
+	}	
+	
+}
